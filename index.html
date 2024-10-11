@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+
 </head>
-<body>
-    <form action="" id="form">
-        <input type="number" name="number" id="number">
-        <input type="submit" value="Generate">
-    </form>
-    <div name="result" id="result"></div>
-    <button type="button" id="reset">Reset</button>
-        <button type="button" id="copy">Copy</button>
-        <button type="button" id="download">download</button>
+<body class="bg-gray-200">
+    <main class="main">
+        <div class="heading-div">
+            <h5 class="heading">Number of Random User Agents:</h5>
+        </div>
+        <form action="" id="form" class="form">
+            <input class="input" type="number" placeholder="Enter a number" name="number"  id="number">
+            <input class="generate-btn" type="submit" value="Generate">
+        </form>
+        <div name="result" class="result" id="result"></div>
+        <div class="final-btn">
+            
+            <button type="button" class="btn" id="copy">Copy</button>
+            <button type="button" class="btn" id="download">Download</button>
+            <button type="button" class="btn reset-btn" id="reset">Reset</button>
+        </div>
+        
+    </main>
+  
     <script src="./script.js"></script>
 </body>
 </html>

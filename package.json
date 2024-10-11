@@ -1,0 +1,15 @@
+{
+  "name": "random-user-agent-generator",
+  "version": "1.0.0",
+  "description": "Live URL: [https://tools.fileion.com/generator/random-user-agent-generator](https://tools.fileion.com/generator/random-user-agent-generator)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
